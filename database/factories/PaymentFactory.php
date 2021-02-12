@@ -22,7 +22,7 @@ class PaymentFactory extends Factory
     public function definition()
     {
         return [
-            'amount' => rand(1,10),
+            'amount' => rand(1,10) * 100,
             'status' => 'open',
         ];
     }
